@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.popup {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.imageBackground {
+    width: 50%;
+    float: right;
+}
+
+h1 {
+    color: #56A3A6;
+
+}
+
+.terms {
+    color: #56A3A6;
+}
+
+.privacy {
+    color: #56A3A6;
+}
+
+.signUp {
+    font-weight: 600;
+    color: #fff;
+    background-color: #56A3A6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid #56A3A6;
+}
+
+.signIn {
+    font-weight: 600;
+    color: #56A3A6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid #56A3A6;
+}
