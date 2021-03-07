@@ -1,25 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create account</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="login.css">
+
 </head>
+
 <body>
     <div class="popup">
-        <div class="left">
-    <h1>Create Account</h1>
-    <div>or use your e-mail for registration:</div>
-    <div>I agree to the <span class="terms">Terms</span> and <span class="privacy">Privacy Policy</span>.</div>
+        <div class="left">            
+            <h1>Create Account</h1>
+            <div class="icons">
+            <i  style="margin-right: 20px;" class="fab fa-google"></i>
+            <i  style="margin-right: 20px;" class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            </div>
+            <div class="registration">or use your e-mail for registration:</div>
+            <form action="">
+                <input type="text" id="name" name="name" placeholder="Name" class="inputs" required>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Email" class="inputs" required>
+                <br>
+                <input type="password" id="password" name="password" placeholder="Password" class="inputs" required>
+                <br>
+                <div style="text-align: center;">
+                <input type="checkbox" id="termsAndPrivacy" name="termsAndPrivacy" value="termsAndPrivacy">
+                <label for="termsAndPrivacy"> I agree to the <span><a href="#">Terms</a></span> and <span><a href="#">Privacy Policy</a></span>.</label>
+                </div>
+                <br>
+                <div class="buttons">
+                <input type="submit" class="signUp" value="Sign Up">     
+                <input type="submit" class="signIn" value="Sign In">    
+                </div>    
+            </form>
         </div>
-    <div class="imageBackground">
-        <img src="image.png" alt="imageBackground" style="max-width: 100%">
-    </div>
-    <button class="signUp">Sign Up</button>
-    <button class="signIn">Sign In</button>
+        <div class="imageBackground">
+            <img src="image.png" alt="imageBackground" style="max-width: 100%">
+        </div>
+
     </div>
 </body>
+
 </html>

@@ -1,10 +1,12 @@
 body {
     font-family: 'Poppins', sans-serif;
+    font-size: 14px;
 }
 
 .popup {
     max-width: 1000px;
     margin: auto;
+    margin-top: 120px;
 }
 
 .left {
@@ -12,41 +14,96 @@ body {
     float: left;
 }
 
+.icons {
+    color: #363636;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fa-google:hover {
+    color: #56A3A6;
+}
+
+.fa-facebook-f:hover {
+    color: #56A3A6;
+}
+
+.fa-twitter:hover {
+    color: #56A3A6;
+}
+
+.registration {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .imageBackground {
     width: 50%;
     float: right;
+    justify-content: center;
 }
 
 h1 {
     color: #56A3A6;
+    text-align: center;
 
 }
 
-.terms {
+.inputs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #56A3A6;
+
+}
+
+a {
+    text-decoration: none;
     color: #56A3A6;
 }
 
-.privacy {
-    color: #56A3A6;
+.buttons {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
 }
 
 .signUp {
+    display: inline-block;
     font-weight: 600;
     color: #fff;
     background-color: #56A3A6;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 120px;
     border-radius: 10px;
     border: 1px solid #56A3A6;
+    width: 35%;
 }
 
 .signIn {
+    display: inline-block;
     font-weight: 600;
     color: #56A3A6;
+    background-color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 120px;
     border-radius: 10px;
     border: 1px solid #56A3A6;
+    margin-left: 10px;
+    width: 35%;
+}
+
+.signUp:hover {
+    background-color: #fff;
+    color: #56A3A6;
+}
+
+.signIn:hover {
+    background-color: #56A3A6;
+    color: #fff;
 }
