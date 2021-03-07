@@ -20,36 +20,36 @@
 
 <body>
     <div class="popup">
-        <div class="left">            
+        <div class="left">
             <h1>Create Account</h1>
             <div class="icons">
-            <i  style="margin-right: 20px;" class="fab fa-google"></i>
-            <i  style="margin-right: 20px;" class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
+                <a href="#"><i style="margin-right: 20px;" class="fab fa-google"></i></a>
+                <a href="#"><i style="margin-right: 20px;" class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
             <div class="registration">or use your e-mail for registration:</div>
-            <form action="">
+            <form action="" method="POST">
                 <input type="text" id="name" name="name" placeholder="Name" class="inputs" required>
                 <br>
                 <input type="email" id="email" name="email" placeholder="Email" class="inputs" required>
                 <br>
                 <input type="password" id="password" name="password" placeholder="Password" class="inputs" required>
                 <br>
-                <div style="text-align: center;">
-                <input type="checkbox" id="termsAndPrivacy" name="termsAndPrivacy" value="termsAndPrivacy">
-                <label for="termsAndPrivacy"> I agree to the <span><a href="#">Terms</a></span> and <span><a href="#">Privacy Policy</a></span>.</label>
+                <div style="text-align: center;" class="termsAndPrivacy">
+                    <input type="checkbox" id="termsAndPrivacy" name="termsAndPrivacy" value="termsAndPrivacy" required>
+                    <label for="termsAndPrivacy"> I agree to the <a href="#">Terms</a> and <a href="#">Privacy
+                            Policy</a>.</label>
                 </div>
                 <br>
                 <div class="buttons">
-                <input type="submit" class="signUp" value="Sign Up">     
-                <input type="submit" class="signIn" value="Sign In">    
-                </div>    
+                    <button type="submit" class="signUp">Sign Up</button>
+                    <a href="#"><button type="button" class="signIn">Sign In</button></a>
+                </div>
             </form>
         </div>
         <div class="imageBackground">
             <img src="image.png" alt="imageBackground" style="max-width: 100%">
         </div>
-
     </div>
 </body>
 
